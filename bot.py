@@ -26,6 +26,14 @@ req_headers = {
 
 
 def tokped_search_product(q, page=1, rows=60):
+    """Cari produk di tokopedia
+
+    parameters:
+
+    @q: keyword pencarian, misal 'macbook'
+    @page: halaman ke berapa
+    @rows: berapa items per request, kalau 0 berarti udh habis
+    """
     # start dihitung otomatis
     start = (page-1) * rows
 
@@ -57,7 +65,7 @@ if __name__ == '__main__':
     print("Crawling started.")
     while True:
         print(f"Crawling at page {curr_page}...")
-        result = tokped_search_product('macbook 16gb', page=curr_page)
+        result = tokped_search_product('xiaomi mi max 3', page=curr_page)
 
         if not result:
             break
