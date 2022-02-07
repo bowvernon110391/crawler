@@ -1,0 +1,198 @@
+[{
+    "data": {
+      "pdpGetData": {
+        "error": {
+          "Code": 0,
+          "Message": "",
+          "DevMessage": "",
+          "__typename": "pdpLayoutDataError"
+        },
+        "callsError": {
+          "shopInfo": {
+            "Code": 0,
+            "Message": "",
+            "__typename": "grpcResponseError"
+          },
+          "cartRedirection": {
+            "Code": 0,
+            "Message": "",
+            "__typename": "grpcResponseError"
+          },
+          "nearestWarehouse": {
+            "Code": 0,
+            "Message": "",
+            "__typename": "grpcResponseError"
+          },
+          "__typename": "callsError"
+        },
+        "productView": "1104",
+        "wishlistCount": "33",
+        "shopInfo": {
+          "shopTier": 3,
+          "badgeURL": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/Power%20Merchant%20Pro.png",
+          "closedInfo": {
+            "closedNote": "",
+            "reason": "",
+            "detail": {
+              "openDate": "0",
+              "__typename": "ClosedDetail"
+            },
+            "__typename": "pdpClosedInfoData"
+          },
+          "isOpen": 0,
+          "favoriteData": {
+            "totalFavorite": "0",
+            "alreadyFavorited": 0,
+            "__typename": "pdpFavData"
+          },
+          "activeProduct": "732",
+          "createInfo": {
+            "epochShopCreated": "1568220966",
+            "__typename": "pdpCreatedData"
+          },
+          "shopAssets": {
+            "avatar": "https://images.tokopedia.net/img/cache/215-square/shops-1/2020/6/20/6795300/6795300_e5f0f42c-1859-4459-b3c0-b2239794673b.jpg",
+            "__typename": "pdpImageData"
+          },
+          "shopCore": {
+            "domain": "sshoesecondstree",
+            "shopID": "6795300",
+            "name": "s@shoe_second_street",
+            "shopScore": 0,
+            "url": "https://www.tokopedia.com/sshoesecondstree",
+            "__typename": "pdpShopInfoData"
+          },
+          "shopLastActive": "1644212098",
+          "location": "Jakarta Barat",
+          "statusInfo": {
+            "statusMessage": "",
+            "shopStatus": 1,
+            "isIdle": false,
+            "__typename": "pdpStatusData"
+          },
+          "isAllowManage": 0,
+          "isOwner": 0,
+          "isCOD": false,
+          "shopType": 1,
+          "__typename": "pdpDataShopInfo"
+        },
+        "merchantVoucher": {
+          "vouchers": [],
+          "__typename": "pdpDataMerchantVoucherData"
+        },
+        "nearestWarehouse": [{
+          "product_id": "1374640440",
+          "stock": "0",
+          "stock_wording": "",
+          "price": "0",
+          "warehouse_info": {
+            "warehouse_id": "7003745",
+            "is_fulfillment": false,
+            "district_id": "2255",
+            "postal_code": "11820",
+            "geolocation": "-6.124283,106.715546",
+            "__typename": "warehouseInfo"
+          },
+          "__typename": "pdpDataNearestWarehouse"
+        }],
+        "installmentRecommendation": {
+          "data": {
+            "term": 1,
+            "mdr_value": 3,
+            "mdr_type": "%",
+            "interest_rate": 0,
+            "minimum_amount": 10000,
+            "maximum_amount": 50000000,
+            "monthly_price": 15458,
+            "os_monthly_price": 15458,
+            "partner_code": "KDV",
+            "partner_name": "Kredivo",
+            "partner_icon": "https://ecs7.tokopedia.net/assets-fintech-frontend/pdp/kredivo/kredivo.png",
+            "subtitle": "Beli sekarang, bayar akhir bulan atau 30 hari lagi",
+            "__typename": "calculationInstallment"
+          },
+          "__typename": "pdpDataInstallmentRecommendation"
+        },
+        "productWishlistQuery": {
+          "value": false,
+          "__typename": "pdpDataProductWishlistQuery"
+        },
+        "cartRedirection": {
+          "status": "OK",
+          "error_message": [],
+          "data": [{
+            "product_id": "1374640440",
+            "config_name": "occ",
+            "hide_floating_button": false,
+            "available_buttons": [{
+              "text": "Beli Langsung",
+              "color": "secondary_green",
+              "cart_type": "occ",
+              "onboarding_message": "",
+              "show_recommendation": false,
+              "__typename": "pdpDataRedirectionButton"
+            }, {
+              "text": "+ Keranjang",
+              "color": "primary_green",
+              "cart_type": "normal",
+              "onboarding_message": "",
+              "show_recommendation": true,
+              "__typename": "pdpDataRedirectionButton"
+            }],
+            "unavailable_buttons": ["byme"],
+            "__typename": "pdpDataRedirectionData"
+          }],
+          "__typename": "pdpDataCartRedirection"
+        },
+        "shopTopChatSpeed": {
+          "messageResponseTime": "4",
+          "__typename": "pdpDataShopTopChatSpeed"
+        },
+        "shopRatingsQuery": {
+          "ratingScore": 4.599999904632568,
+          "__typename": "pdpDataShopRatingQuery"
+        },
+        "shopPackSpeed": {
+          "speedFmt": "3 jam",
+          "hour": 4,
+          "__typename": "pdpDataShopPackSpeedData"
+        },
+        "shopFeature": {
+          "IsGoApotik": false,
+          "__typename": "pdpDataShopFeature"
+        },
+        "ratesEstimate": [{
+          "warehouseID": "7003745",
+          "products": ["1374640440"],
+          "data": {
+            "destination": "Dikirim ke <b>Alamat rumah Tri Mulyadi Wibowo</b>",
+            "title": "Ongkir Reguler (2-4 hari) 9 rb",
+            "subtitle": "Kurir lainnya: ",
+            "courierLabel": "",
+            "eTAText": "",
+            "cheapestShippingPrice": 9000,
+            "errors": [],
+            "__typename": "pdpDataRatesEstimateData"
+          },
+          "bottomsheet": {
+            "title": "",
+            "iconURL": "",
+            "subtitle": "",
+            "buttonCopy": "",
+            "__typename": "pdpDataRateEstimateBottomsheetData"
+          },
+          "__typename": "pdpDataRatesEstimateResponse"
+        }],
+        "restrictionInfo": {
+          "message": "",
+          "restrictionData": [],
+          "__typename": "pdpDataRestrictionInfo"
+        },
+        "ticker": {
+          "tickerInfo": [],
+          "__typename": "pdpDataTicker"
+        },
+        "__typename": "pdpLayoutData"
+      }
+    }
+  }]
