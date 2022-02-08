@@ -13,7 +13,7 @@ if __name__ == '__main__':
     print("Crawling started.")
     while True:
         print(f"Crawling at page {curr_page}...")
-        result = tokped_search_product('xiaomi mi max 2', page=curr_page)
+        result = tokped_search_product('supra x 125', page=curr_page, rows=100)
 
         if not result:
             break
