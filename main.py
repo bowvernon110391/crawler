@@ -1,9 +1,12 @@
-import os
+import sys
+from helpers.helpers import get_lock, release_lock
 
 from tokopedia.request import tokped_get_products_from_result,tokped_search_product
 
 if __name__ == '__main__':
-    print(f"My ID: {os.getpid()}")
+    if not get_lock():
+        print("Crawler already running! exiting...")
+        sys.exit()
 
     curr_page = 1
 
@@ -26,3 +29,5 @@ if __name__ == '__main__':
         curr_page = curr_page + 1
     
     print("Crawling ended.")
+
+    release_lock()
