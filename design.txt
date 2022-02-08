@@ -1,0 +1,27 @@
+Job:
+- name
+- Keyword(s)
+- user -- who started it
+
+Keyword:
+- keyword
+- result -> Item(s)
+- status { STARTED, RUNNING, DONE }
+
+Item:
+- name
+- price
+- image_url
+- url
+- category
+- category_breadcrumb
+- Shop
+
+Shop:
+- name
+- url
+- image_url
+- Item(s)
+- city
+- lon -- optional
+- lat -- optional
