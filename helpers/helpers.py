@@ -20,7 +20,7 @@ pid_filename = os.path.join(tmpdir, 'crawler.pid')
 def get_lock():
     """attempt to get a lock
     """
-    print(f"writing pid to {pid_filename}")
+    # print(f"writing pid to {pid_filename}")
     if os.path.isfile(pid_filename):
         return False
 
