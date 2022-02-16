@@ -34,4 +34,45 @@ def tokped_search_product(q, page=1, rows=60):
         return None
 
 def tokped_get_products_from_result(res):
+    """Ambil data produk dari response
+
+    parameter:
+
+    @res : reponse dari tokped_search_product
+
+    returns:
+
+    array of product
+    """
     return res[0]['data']['ace_search_product_v4']['data']['products']
+
+def tokped_get_shop_domain(prod):
+    '''Get shop domain dari domain toko
+
+    parameter:
+
+    @prod : produk dari tokped_get_products_from_result
+
+    return : domain dari toko (non url), None if failed
+    '''
+    if not prod:
+        return None
+
+    # ambil domainnya?
+    domain = prod['shop']['url'] or ''
+    return str.split(domain, '/')[-1]
+
+def tokped_get_product_key(prod):
+    '''Get product key from product url
+
+    parameter:
+
+    @prod : produk dari tokped_get_products_from_result
+
+    return : product key (komponen terakhir dari url)
+    '''
+    if not prod:
+        return None
+
+    gaKey = prod['gaKey'] or ''
+    return str.split(gaKey, '/')[-1]
