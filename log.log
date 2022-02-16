@@ -1,0 +1,88 @@
+Status: 0
+Got 11 items
+==========================================
+stdClass Object
+(
+    [id] => 1374640440
+    [name] => BOHLAM LAMPU DEPAN VERZA / SCOOPY FI ORIGINAL HONDA 34901-KZL-841
+    [ads] => stdClass Object
+        (
+            [adsId] => 
+            [productClickUrl] => 
+            [productWishlistUrl] => 
+            [productViewUrl] => 
+            [__typename] => AceSearchUnifyAds
+        )
+
+    [badges] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [title] => Power Merchant Pro Badge
+                    [imageUrl] => https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png
+                    [show] => 1
+                    [__typename] => AceSearchUnifyBadge
+                )
+
+        )
+
+    [category] => 1306
+    [categoryBreadcrumb] => otomotif/aksesoris-motor/lampu-motor
+    [categoryId] => 63
+    [categoryName] => Otomotif
+    [countReview] => 20
+    [discountPercentage] => 0
+    [gaKey] => /searchproduct/otomotif/aksesoris-motor/lampu-motor/bohlam+lampu+depan+verza+%2F+scoopy+fi+original+honda+34901-kzl-841/sshoesecondstree/bohlam-lampu-depan-verza-scoopy-fi-original-honda-34901-kzl-841
+    [imageUrl] => https://images.tokopedia.net/img/cache/200-square/VqbcmM/2020/11/25/425c6b5a-38e0-4a59-aaab-162f3a4cdecf.jpg
+    [labelGroups] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [position] => offers
+                    [title] => Grosir
+                    [type] => lightGrey
+                    [url] => 
+                    [__typename] => AceSearchUnifyLabelGroup
+                )
+
+            [1] => stdClass Object
+                (
+                    [position] => price
+                    [title] => Grosir
+                    [type] => lightGreen
+                    [url] => 
+                    [__typename] => AceSearchUnifyLabelGroup
+                )
+
+            [2] => stdClass Object
+                (
+                    [position] => integrity
+                    [title] => Terjual 47
+                    [type] => textDarkGrey
+                    [url] => 
+                    [__typename] => AceSearchUnifyLabelGroup
+                )
+
+        )
+
+    [originalPrice] => 
+    [price] => Rp15.000
+    [priceRange] => 
+    [rating] => 5
+    [ratingAverage] => 4.6
+    [shop] => stdClass Object
+        (
+            [shopId] => 6795300
+            [name] => s@shoe_second_street
+            [url] => https://www.tokopedia.com/sshoesecondstree
+            [city] => Jakarta Barat
+            [isOfficial] => 
+            [isPowerBadge] => 1
+            [__typename] => AceSearchUnifyShop
+        )
+
+    [url] => https://www.tokopedia.com/sshoesecondstree/bohlam-lampu-depan-verza-scoopy-fi-original-honda-34901-kzl-841?refined=true
+    [wishlist] => 
+    [sourceEngine] => 0
+    [__typename] => AceSearchUnifyProduct
+)

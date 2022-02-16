@@ -1,0 +1,469 @@
+[
+    {
+        "data": {
+            "pdpGetLayout": {
+                "name": "Default Layout",
+                "pdpSession": "{\"sid\":172526,\"sd\":\"alatmotor\",\"cat\":{\"id\":1306},\"cp\":{},\"pr\":25000,\"whid\":111926,\"mo\":1,\"pn\":\"lampu depan bohlam depan vixion verza byson scoopy ASPIRA ASTRA\",\"st\":11,\"cn\":\"new\",\"w\":0.1,\"sf\":{},\"v\":1,\"pi\":231272081,\"pse\":1,\"ps\":\"ACTIVE\"}",
+                "basicInfo": {
+                    "alias": "lampu-depan-bohlam-depan-vixion-verza-byson-scoopy-aspira-astra",
+                    "isQA": false,
+                    "id": "231272081",
+                    "shopID": "172526",
+                    "shopName": "sinar jaya motors",
+                    "minOrder": 1,
+                    "maxOrder": 11,
+                    "weight": 100,
+                    "weightUnit": "GRAM",
+                    "condition": "NEW",
+                    "status": "ACTIVE",
+                    "url": "https://www.tokopedia.com/alatmotor/lampu-depan-bohlam-depan-vixion-verza-byson-scoopy-aspira-astra",
+                    "needPrescription": false,
+                    "catalogID": "0",
+                    "isLeasing": false,
+                    "isBlacklisted": false,
+                    "menu": {
+                        "id": "497543",
+                        "name": "lampu-lampu",
+                        "url": "https://www.tokopedia.com/alatmotor/etalase/lampu-lampu",
+                        "__typename": "pdpMenu"
+                    },
+                    "category": {
+                        "id": "1306",
+                        "name": "Lampu Motor",
+                        "title": "Lampu Motor",
+                        "breadcrumbURL": "https://www.tokopedia.com/p/otomotif/aksesoris-motor/lampu-motor",
+                        "isAdult": false,
+                        "isKyc": false,
+                        "minAge": 0,
+                        "detail": [
+                            {
+                                "id": "63",
+                                "name": "Otomotif",
+                                "breadcrumbURL": "https://www.tokopedia.com/p/otomotif",
+                                "isAdult": false,
+                                "__typename": "pdpCategoryDetail"
+                            },
+                            {
+                                "id": "39",
+                                "name": "Aksesoris Motor",
+                                "breadcrumbURL": "https://www.tokopedia.com/p/otomotif/aksesoris-motor",
+                                "isAdult": false,
+                                "__typename": "pdpCategoryDetail"
+                            },
+                            {
+                                "id": "1306",
+                                "name": "Lampu Motor",
+                                "breadcrumbURL": "https://www.tokopedia.com/p/otomotif/aksesoris-motor/lampu-motor",
+                                "isAdult": false,
+                                "__typename": "pdpCategoryDetail"
+                            }
+                        ],
+                        "__typename": "pdpCategory"
+                    },
+                    "txStats": {
+                        "transactionSuccess": "97",
+                        "transactionReject": "0",
+                        "countSold": "139",
+                        "paymentVerified": "97",
+                        "itemSoldPaymentVerified": "139",
+                        "__typename": "txStats"
+                    },
+                    "stats": {
+                        "countView": "6838",
+                        "countReview": "54",
+                        "countTalk": "32",
+                        "rating": 4.8,
+                        "__typename": "pdpStats"
+                    },
+                    "__typename": "pdpBasicInfo"
+                },
+                "components": [
+                    {
+                        "name": "product_snapshot",
+                        "type": "product_snapshot",
+                        "position": "[0,0,1,1]",
+                        "data": [
+                            {
+                                "__typename": "pdpDataProductSnapshot"
+                            }
+                        ],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "product_media",
+                        "type": "product_media",
+                        "position": "[0,1,1,1]",
+                        "data": [
+                            {
+                                "media": [
+                                    {
+                                        "type": "image",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/200-square/product-1/2017/11/18/0/0_42b2e684-aa6b-4025-bb1d-5d96f8e360e8_576_432.jpg",
+                                        "videoUrl": "",
+                                        "prefix": "",
+                                        "suffix": "",
+                                        "description": "",
+                                        "__typename": "pdpContentSnapshotMedia"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/200-square/product-1/2017/11/18/0/0_755f280b-2a5f-44d4-bf86-daae28a214a1_576_432.jpg",
+                                        "videoUrl": "",
+                                        "prefix": "",
+                                        "suffix": "",
+                                        "description": "",
+                                        "__typename": "pdpContentSnapshotMedia"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/200-square/product-1/2017/11/18/0/0_6aa018d4-88bc-43fd-94f1-54b364840a84_432_576.jpg",
+                                        "videoUrl": "",
+                                        "prefix": "",
+                                        "suffix": "",
+                                        "description": "",
+                                        "__typename": "pdpContentSnapshotMedia"
+                                    }
+                                ],
+                                "videos": [],
+                                "__typename": "pdpDataProductMedia"
+                            }
+                        ],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "ticker_info",
+                        "type": "ticker_info",
+                        "position": "[0,2,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "product_content",
+                        "type": "product_content",
+                        "position": "[0,4,1,1]",
+                        "data": [
+                            {
+                                "name": "lampu depan bohlam depan vixion verza byson scoopy ASPIRA ASTRA",
+                                "price": {
+                                    "value": 25000,
+                                    "currency": "IDR",
+                                    "__typename": "pdpContentSnapshotPrice"
+                                },
+                                "campaign": {
+                                    "campaignID": "0",
+                                    "campaignType": "0",
+                                    "campaignTypeName": "",
+                                    "campaignIdentifier": 0,
+                                    "background": "",
+                                    "percentageAmount": 0,
+                                    "originalPrice": 0,
+                                    "discountedPrice": 0,
+                                    "originalStock": 0,
+                                    "stock": 0,
+                                    "stockSoldPercentage": 0,
+                                    "threshold": 0,
+                                    "startDate": "",
+                                    "endDate": "",
+                                    "endDateUnix": "0",
+                                    "appLinks": "",
+                                    "isAppsOnly": false,
+                                    "isActive": false,
+                                    "hideGimmick": false,
+                                    "__typename": "pdpContentSnapshotCampaign"
+                                },
+                                "thematicCampaign": {
+                                    "additionalInfo": "",
+                                    "background": "",
+                                    "campaignName": "",
+                                    "icon": "",
+                                    "__typename": "pdpContentSnapshotThematicCampaign"
+                                },
+                                "stock": {
+                                    "useStock": true,
+                                    "value": "11",
+                                    "stockWording": "",
+                                    "__typename": "pdpContentSnapshotStock"
+                                },
+                                "variant": {
+                                    "isVariant": false,
+                                    "parentID": "0",
+                                    "__typename": "pdpContentSnapshotVariant"
+                                },
+                                "wholesale": [],
+                                "isCashback": {
+                                    "percentage": 0,
+                                    "__typename": "pdpContentSnapshotIsCashback"
+                                },
+                                "isTradeIn": false,
+                                "isOS": false,
+                                "isPowerMerchant": true,
+                                "isWishlist": false,
+                                "isCOD": false,
+                                "isFreeOngkir": {
+                                    "isActive": false,
+                                    "__typename": "pdpContentSnapshotFreeOngkir"
+                                },
+                                "preorder": {
+                                    "duration": 0,
+                                    "timeUnit": "UNKNOWN",
+                                    "isActive": false,
+                                    "preorderInDays": 0,
+                                    "__typename": "pdpContentSnapshotPreorder"
+                                },
+                                "__typename": "pdpDataProductContent"
+                            }
+                        ],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "social_proof_mini",
+                        "type": "social_proof_mini",
+                        "position": "[0,5,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "variant_options",
+                        "type": "variant",
+                        "position": "[0,7,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "separator",
+                        "type": "separator",
+                        "position": "[0,9,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "shop_credibility",
+                        "type": "shop_credibility",
+                        "position": "[0,11,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "product_bundling",
+                        "type": "product_bundling",
+                        "position": "[0,13,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "palugada",
+                        "type": "custom_info",
+                        "position": "[0,15,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "cod",
+                        "type": "custom_info",
+                        "position": "[0,16,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "tradein",
+                        "type": "info",
+                        "position": "[0,17,1,1]",
+                        "data": [
+                            {
+                                "icon": "https://ecs7.tokopedia.net/pdp/info/icon/Tradein@3x.png",
+                                "title": "Beli dengan Tukar Tambah",
+                                "isApplink": true,
+                                "applink": "",
+                                "content": [],
+                                "__typename": "pdpDataInfo"
+                            }
+                        ],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "wholesale",
+                        "type": "info",
+                        "position": "[0,18,1,1]",
+                        "data": [
+                            {
+                                "icon": "",
+                                "title": "Harga Grosir",
+                                "isApplink": true,
+                                "applink": "",
+                                "content": [],
+                                "__typename": "pdpDataInfo"
+                            }
+                        ],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "order_prio",
+                        "type": "info",
+                        "position": "[0,22,1,1]",
+                        "data": [
+                            {
+                                "icon": "https://ecs7.tokopedia.net/pdp/info/icon/pdp-orderprio@3x.png",
+                                "title": "Order Prioritas",
+                                "isApplink": false,
+                                "applink": "",
+                                "content": [],
+                                "__typename": "pdpDataInfo"
+                            }
+                        ],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "obat_keras",
+                        "type": "custom_info",
+                        "position": "[0,23,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "separator",
+                        "type": "separator",
+                        "position": "[0,24,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "imei",
+                        "type": "custom_info",
+                        "position": "[0,27,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "protection",
+                        "type": "info",
+                        "position": "[0,28,1,1]",
+                        "data": [
+                            {
+                                "icon": "https://ecs7.tokopedia.net/pdp/info/icon/pdp-protection@3x.png",
+                                "title": "Proteksi Gadget",
+                                "isApplink": false,
+                                "applink": "",
+                                "content": [],
+                                "__typename": "pdpDataInfo"
+                            }
+                        ],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "separator",
+                        "type": "separator",
+                        "position": "[0,29,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "pdp_1",
+                        "type": "product_list",
+                        "position": "[0,30,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "separator",
+                        "type": "separator",
+                        "position": "[0,31,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "review",
+                        "type": "review",
+                        "position": "[0,32,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "separator",
+                        "type": "separator",
+                        "position": "[0,33,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "pdp_2",
+                        "type": "product_list",
+                        "position": "[0,34,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "discussion",
+                        "type": "discussion",
+                        "position": "[0,35,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "discussion_faq",
+                        "type": "discussion_faq",
+                        "position": "[0,36,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "report",
+                        "type": "report",
+                        "position": "[0,37,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "tdn_topads",
+                        "type": "banner_ads",
+                        "position": "[0,38,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "pdp_3",
+                        "type": "product_list",
+                        "position": "[0,39,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "pdp_4",
+                        "type": "product_list",
+                        "position": "[0,40,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "pdp_6",
+                        "type": "product_list",
+                        "position": "[0,41,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "pdp_7",
+                        "type": "product_list",
+                        "position": "[0,42,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "pdp_9_tokonow",
+                        "type": "product_list",
+                        "position": "[0,43,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    },
+                    {
+                        "name": "shopads_carousel",
+                        "type": "product_list",
+                        "position": "[0,44,1,1]",
+                        "data": [],
+                        "__typename": "pdpComponent"
+                    }
+                ],
+                "__typename": "pdpLayout"
+            }
+        }
+    }
+]
