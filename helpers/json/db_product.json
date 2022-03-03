@@ -1,0 +1,26 @@
+{
+    "id": 0,
+    "item_id": 2323123,
+    "name": "Kaos kutang",
+    "rating": 5,
+    "rating_avg": 4.7,
+    "price": 13000,
+    "url": "www.google.com",
+    "image_url": "www.google.com/smooch.png",
+    "view_count": 1000,
+    "wishlist_count": 33,
+    "shop": {
+        "id": 3,
+        "name": "Alishanmao",
+        "url": "www.google.com",
+        "domain": "alishop",
+        "kota": "Jakarta Barat",
+        "alamat": "Vmd3+032, jakarta barat",
+        "last_active_timestamp": 16732131232,
+        "kode_pos": "131232",
+        "lat": 120.3232323,
+        "lon": -6.2142244,
+        "registered_at": "2022-01-01 00:23:24",
+        "marketplace": "tokopedia"
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "id": 2089943748,
+    "name": "Apple Macbook Air 2020 M1 Chip 256GB SSD 8GB GARANSI RESMI IBOX",
+    "ads": {
+        "adsId": "",
+        "productClickUrl": "",
+        "productWishlistUrl": "",
+        "productViewUrl": "",
+        "__typename": "AceSearchUnifyAds"
+    },
+    "badges": [
+        {
+            "title": "Official Store",
+            "imageUrl": "https://images.tokopedia.net/img/official_store_badge.png",
+            "show": true,
+            "__typename": "AceSearchUnifyBadge"
+        }
+    ],
+    "category": 3982,
+    "categoryBreadcrumb": "komputer-laptop/laptop/laptop-consumer",
+    "categoryId": 297,
+    "categoryName": "Komputer & Laptop",
+    "countReview": 244,
+    "discountPercentage": 0,
+    "gaKey": "/searchproduct/komputer-laptop/laptop/laptop-consumer/macbook/envicstore/apple-macbook-air-2020-m1-chip-256gb-ssd-8gb-garansi-resmi-ibox-silver",
+    "imageUrl": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/10/25/1bd71ba8-9f9e-4851-9c6d-8a8dcd4204c6.jpg",
+    "labelGroups": [
+        {
+            "position": "promo",
+            "title": "Cashback",
+            "type": "lightGreen",
+            "url": "",
+            "__typename": "AceSearchUnifyLabelGroup"
+        },
+        {
+            "position": "offers",
+            "title": "Bisa Tukar Tambah",
+            "type": "lightGrey",
+            "url": "",
+            "__typename": "AceSearchUnifyLabelGroup"
+        },
+        {
+            "position": "price",
+            "title": "Cashback",
+            "type": "lightGreen",
+            "url": "",
+            "__typename": "AceSearchUnifyLabelGroup"
+        },
+        {
+            "position": "integrity",
+            "title": "Terjual 414",
+            "type": "textDarkGrey",
+            "url": "",
+            "__typename": "AceSearchUnifyLabelGroup"
+        }
+    ],
+    "originalPrice": "",
+    "price": "Rp15.199.000",
+    "priceRange": "",
+    "rating": 5,
+    "ratingAverage": "5.0",
+    "shop": {
+        "shopId": 728771,
+        "name": "EnVicStore",
+        "url": "https://www.tokopedia.com/envicstore",
+        "city": "Jakarta Utara",
+        "isOfficial": true,
+        "isPowerBadge": true,
+        "__typename": "AceSearchUnifyShop"
+    },
+    "url": "https://www.tokopedia.com/envicstore/apple-macbook-air-2020-m1-chip-256gb-ssd-8gb-garansi-resmi-ibox-silver",
+    "wishlist": false,
+    "sourceEngine": "0",
+    "__typename": "AceSearchUnifyProduct"
+}

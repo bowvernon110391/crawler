@@ -78,7 +78,7 @@ def tokped_get_product_key(prod):
         return None
 
     gaKey = prod['gaKey'] or ''
-    return str.split(gaKey, '/')[-1]
+    return gaKey.split('/')[-1]
 
 def tokped_request_pdpsession(shop_domain, prod_key):
     '''request pdp session untuk request detail produk
@@ -115,7 +115,7 @@ def tokped_get_pdpsession_string(res):
 
     return res[0]['data']['pdpGetLayout']['pdpSession']
 
-def tokped_request_product_detail(pdplayout):
+def tokped_request_product_detail_from_layout(pdplayout):
     '''ambil detil produk.
 
     parameter:
@@ -148,3 +148,14 @@ def tokped_request_product_detail(pdplayout):
         return None
 
 
+def tokped_request_product_detail(prod):
+    '''ambil data dari product, tambahkan informasi toko + lain2
+    lalu pack sesuai format dari database
+    '''
+    prod_key = tokped_get_product_key(prod)
+    shop_domain = tokped_get_shop_domain(prod)
+
+    pdplayout = tokped_request_pdpsession(shop_domain, prod_key)
+    prod_detail = tokped_request_product_detail_from_layout(pdplayout)
+    
+    return prod_detail
