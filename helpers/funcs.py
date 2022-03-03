@@ -4,7 +4,7 @@ from tokopedia.request import tokped_request_product_detail
 import re
 from datetime import datetime
 
-def parse_product_tokped(prod):
+def transform_product_tokped(prod):
     # first get detail
     details = tokped_request_product_detail(prod)
 
