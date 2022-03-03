@@ -17,20 +17,22 @@ def load_json(fname):
 tmpdir = tempfile.gettempdir()
 pid_filename = os.path.join(tmpdir, 'crawler.pid')
 
-def get_lock():
+def get_lock(lockId = 0):
     """attempt to get a lock
     """
     # print(f"writing pid to {pid_filename}")
-    if os.path.isfile(pid_filename):
+    real_pid_filename = f"{pid_filename}-{lockId}"
+    if os.path.isfile(real_pid_filename):
         return False
 
-    f = open(pid_filename, 'w')
+    f = open(real_pid_filename, 'w')
     f.write(f"{os.getpid()}")
     f.close()
     return True
 
-def release_lock():
+def release_lock(lockId = 0):
     """release the lock file
     """
-    if os.path.isfile(pid_filename):
-        os.unlink(pid_filename)
+    real_pid_filename = f"{pid_filename}-{lockId}"
+    if os.path.isfile(real_pid_filename):
+        os.unlink(real_pid_filename)
