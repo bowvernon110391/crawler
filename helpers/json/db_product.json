@@ -9,6 +9,12 @@
     "image_url": "www.google.com/smooch.png",
     "view_count": 1000,
     "wishlist_count": 33,
+    "category_name": "Pakaian & Fashion",
+    "tags": [
+        "peralatan",
+        "rumah tangga",
+        "alat memasak"
+    ],
     "shop": {
         "id": 3,
         "name": "Alishanmao",
