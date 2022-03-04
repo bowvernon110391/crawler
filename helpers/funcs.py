@@ -1,10 +1,23 @@
 
-import imp
+import os
 from tokopedia.request import tokped_request_product_detail
 import re
 from datetime import datetime
+from dotenv import load_dotenv
+import googlemaps
 
-def transform_product_tokped(prod):
+def gmap_reverse_geocode(coord):
+    load_dotenv()
+    GMAP_API_KEY = os.getenv('GMAP_API_KEY')
+    gmap = googlemaps.Client(key=GMAP_API_KEY)
+
+    locations = gmap.reverse_geocode(coord)
+    if len(locations):
+        return locations[0]['formatted_address']
+    return '-'
+
+
+def tokped_transform_product(prod):
     # first get detail
     details = tokped_request_product_detail(prod)
 
@@ -42,7 +55,7 @@ def transform_product_tokped(prod):
             'url': prod['shop']['url'],
             'domain': d['shopInfo']['shopCore']['domain'],
             'kota': prod['shop']['city'],
-            'alamat': 'resolve via gmap pls',
+            'alamat': gmap_reverse_geocode((lat, lon)),
             'last_active_timestamp': last_active_timestamp,
             'kode_pos': kode_pos,
             'lat': float(lat),
