@@ -8,5 +8,7 @@ rahasia, baca sendiri ajah. belom jadi ini.
 - `requests`
 - `json`
 
+just read `requirements.txt` or execute `pip install -r requirements.txt`
+
 ## Features
 - Crawling marketplace berdasarkan keyword

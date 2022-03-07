@@ -5,7 +5,7 @@ function parsePrice(string $price) {
 }
 
 $jobId = 33;
-$cmd = "python3 main.py \"{$argv[1]}\" {$jobId}";
+$cmd = "python3 crawl_tokopedia.py \"{$argv[1]}\" -l {$jobId} -n 5";
 exec($cmd, $result, $stat);
 
 if (!$stat) {
@@ -15,8 +15,10 @@ if (!$stat) {
     echo "Status: {$stat}\n";
     echo "Got " . count($data) . " items\n";
     echo "==========================================\n";
-    if (count($data))
+    if (count($data)) {
         print_r($data[0]);
+        // print($data[0]->name . ' @ ' . $data[0]->shop->name);
+    }
     else
         print_r($data);
 } else {
