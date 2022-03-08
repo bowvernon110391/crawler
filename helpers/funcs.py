@@ -19,7 +19,7 @@ def gmap_reverse_geocode(coord):
 def tokped_parse_tags(ts):
     return list( map( lambda s: re.sub('[\-\.]', ' ', s), ts.split('/')) )
 
-def tokped_transform_product(prod):
+def tokped_transform_product(prod, resolveAddress = False):
     # first get detail
     details = tokped_request_product_detail(prod)
 
@@ -68,7 +68,7 @@ def tokped_transform_product(prod):
             'url': prod['shop']['url'],
             'domain': d['shopInfo']['shopCore']['domain'],
             'kota': prod['shop']['city'],
-            'alamat': '-' if not (lat and lon) else gmap_reverse_geocode((lat, lon)),
+            'alamat': '-' if not (lat and lon) else None if not resolveAddress else gmap_reverse_geocode((lat, lon)),
             'last_active_timestamp': last_active_timestamp,
             'kode_pos': kode_pos,
             'lat': float(lat) if lat and lon else None,

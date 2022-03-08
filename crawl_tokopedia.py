@@ -4,6 +4,7 @@ from helpers.helpers import get_lock, release_lock
 from tokopedia.request import tokped_search_product, tokped_get_products_from_result
 from helpers.funcs import tokped_transform_product
 import json
+import traceback
 
 def main():
     parser = argparse.ArgumentParser(description="Crawl a specific amount of item on a specific page given a keyword")
@@ -19,9 +20,13 @@ def main():
     parser.add_argument('-n', '--number', type=int, default=60, help="The number of items to grab. defaults to 60")
     parser.add_argument('-l', '--lock', type=str, default='0', help="The lock id for concurrency. defaults to 0")
     parser.add_argument('--pretty', action='store_true', help='Whether to indent the result or not')
+    parser.add_argument('--resolve-address', action='store_true', help='Whether to resolve address thru google geocode')
 
     # parse args
     args = parser.parse_args()
+
+    # print(args)
+    # sys.exit()
 
     # attempt to lock
     if not get_lock(args.lock):
@@ -41,7 +46,7 @@ def main():
         items = []
         
         for prod in prods:
-            item = tokped_transform_product(prod)
+            item = tokped_transform_product(prod, args.resolve_address)
             items.append(item)
         
         # return as json dump
@@ -50,7 +55,8 @@ def main():
         """ template = "An exception of type {0} occurred. Arguments:\n{1!r}"
         message = template.format(type(ex).__name__, ex.args)
         print(message) """
-        print(ex.with_traceback())
+        # print(ex.with_traceback())
+        traceback.print_exc()
 
         sys.exit(1)
     finally:
