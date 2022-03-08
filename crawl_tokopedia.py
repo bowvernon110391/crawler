@@ -17,7 +17,7 @@ def main():
     # optional
     parser.add_argument('-p', '--page', type=int, default=1,help="The page to visit. defaults to 1")
     parser.add_argument('-n', '--number', type=int, default=60, help="The number of items to grab. defaults to 60")
-    parser.add_argument('-l', '--lock', type=int, default=0, help="The lock id for concurrency. defaults to 0")
+    parser.add_argument('-l', '--lock', type=str, default='0', help="The lock id for concurrency. defaults to 0")
     parser.add_argument('--pretty', action='store_true', help='Whether to indent the result or not')
 
     # parse args
